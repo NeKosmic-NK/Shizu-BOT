@@ -4,13 +4,13 @@ import { fileURLToPath } from 'url'
 import fs from 'fs'
 
 global.owner = [
-  ['573017901707', 'Otaku - Creador', true],
-  ['573229105723', 'Otaku - Bot', true],
-  ['573246727415']
+  ['34623442554', 'Shizu - Owner', true],
+  ['34623442554', 'Shizu - Bot', true],
+  ['34623442554']
 ] // Cambia los numeros que quieras
-global.suittag = ['573017901707'] 
-global.mods = ['573017901707'] 
-global.prems = ['573017901707'] 
+global.suittag = ['34623442554'] 
+global.mods = ['34623442554'] 
+global.prems = ['34623442554'] 
 
 global.APIs = { // API Prefix
   // name: 'https://website'
