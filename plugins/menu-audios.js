@@ -84,15 +84,12 @@ let str = `
 ° 🔊 _tumadre_ (video)
 ° 🔊 _Sos puto_
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
-['🗒️𝗠𝗘𝗡𝗨 𝗟𝗜𝗦𝗧𝗔🗒️', '.menu'],
-['🥵𝗖𝗥𝗘𝗔𝗗𝗢𝗥🥵', '.menu'],
-['📮𝗗𝗢𝗡𝗔𝗥📮', '.donar']
+conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
 ], m)
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
 handler.tags = ['main']
-handler.command = /^(menuaudio|menuaudios|memuaudios|memuaudio|audios)$/i
+handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
 handler.fail = null
-handler.register = true
 export default  handler
