@@ -67,12 +67,12 @@ let str = `
 *📊 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾𝚂 : ${rtotalreg}*
 
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
-║═ *𝐓𝐡𝐞𝐊𝐢𝐧𝐠-𝐁𝐨𝐭-𝐌𝐃*
+║═ *𝗦𝗵𝗶𝘇𝘂 - 𝗕𝗼𝘁*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *✨𝗛ola, ${name}!!*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *Creador del Bot: 𝐓𝐡𝐞𝐊𝐢𝐧𝐠-𝐁𝐨𝐭-𝐌𝐃* 
-║➤ *N° del creador:* wa.me/573017901707 (No bot) 
+║➤ *Creador del Bot: 𝗦𝗵𝗶𝘇𝘂* 
+║➤ *N° del creador:* wa.me/34623442554 (No bot) 
 ║➤ *Me apoyarias mucho con una donacion a seguir desarrollando el bot*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
@@ -329,7 +329,7 @@ let str = `
 ┣ 👑 _${usedPrefix}resetuser_
 ┗━━━━━━━━━━━━━┛
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://instagram.com/gustavo_smpi', 'Insta Del Creador', '+57 301 790 1707', 'Numero Del Creador', [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://instagram.com/nekosmic.nk', 'Insta Del Creador', '+34 623 44 25 54', 'Numero Del Creador', [
 ['📮 𝗗𝗢𝗡𝗔𝗥 📮', '.donar'],
 ['🥵 𝗖𝗥𝗘𝗔𝗗𝗢𝗥 🥵', '.creador'],
 ['🔊 𝗠𝗘𝗡𝗨 𝗔𝗨𝗗𝗜𝗢𝗦 🔊', '/memu2'],
