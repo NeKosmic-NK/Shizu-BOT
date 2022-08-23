@@ -1,4 +1,4 @@
-{ xpRange } from '../lib/levelling.js'
+import { xpRange } from '../lib/levelling.js'
 const { levelling } = '../lib/levelling.js'
 let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
 let locale = 'es'
