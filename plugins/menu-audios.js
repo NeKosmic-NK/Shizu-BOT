@@ -1,12 +1,12 @@
-﻿const { levelling } = '../lib/levelling.js'
+const { levelling } = '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = './media/menu/MenuAudios.jpg'
+let pp = './Menu2.jpg'
 try {
 } catch (e) {
 } finally {
 //let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
-let username = await conn.getName(m.sender)
+let name = await conn.getName(m.sender)
 let str = `
 *ミ💖 𝗛𝗢𝗟𝗔 _${username}_ 💖彡*
 𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗔𝗨𝗗𝗜𝗢𝗦
