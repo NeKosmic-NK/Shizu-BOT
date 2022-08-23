@@ -1,4 +1,4 @@
-import { xpRange } from '../lib/levelling.js'
+{ xpRange } from '../lib/levelling.js'
 const { levelling } = '../lib/levelling.js'
 let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
 let locale = 'es'
@@ -29,17 +29,17 @@ const sections = [
 title: `𝗟𝗜𝗦𝗧𝗔 𝗗𝗘 𝗠𝗘𝗡𝗨𝗦`,
 rows: [
       {title: "🥵 𝗖𝗥𝗘𝗔𝗗𝗢𝗥 🥵", description: '𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢 𝗗𝗘𝗟 𝗖𝗥𝗘𝗔𝗗𝗢𝗥', rowId: `${usedPrefix}creador`},
-      {title: "🎁 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 🎁", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 𝗗𝗘𝗟 𝗕𝗢𝗧', rowId: `${usedPrefix}memucomp`},
-      {title: "💎 HBO 💎", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗚𝗥𝗨𝗣𝗢', rowId: `${usedPrefix}hbo`},
-      {title: "🎮 DISNEY 🎮", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗝𝗨𝗘𝗚𝗢𝗦/𝗧𝗢𝗣𝗦', rowId: `${usedPrefix}disney`},
-      {title: "🔊 SPOTIFY/TIDAL 🔊", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗔𝗨𝗗𝗜𝗢𝗦', rowId: `${usedPrefix}musica`},
-      {title: "👽 HITS 👽", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦', rowId: `${usedPrefix}hits`},
-      {title: "🎤 ACORNTV 🎤", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗘𝗙𝗘𝗖𝗧𝗢𝗦 𝗗𝗘 𝗔𝗨𝗗𝗜𝗢', rowId: `${usedPrefix}acorntv`},
-      {title: "👾 CRUNCHIRROL 👾", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗥𝗔𝗡𝗗𝗢𝗠', rowId: `${usedPrefix}crunchirrol`},
-      {title: "🔞 STAR 🔞", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗡𝗦𝗙𝗪🔞', rowId: `${usedPrefix}menunsfw`},
-      {title: "📲 CLAROVIDEO 📲", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦', rowId: `${usedPrefix}clarovideo`},
-      {title: "🖍️ SCRIBD 🖍️", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗟𝗢𝗚𝗢𝗦', rowId: `${usedPrefix}mscribd`},
-      {title: "🔍 COMPRAR 🔍", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗕𝗨𝗦𝗤𝗨𝗘𝗗𝗔𝗦', rowId: `${usedPrefix}comprar`},
+      {title: "🎁 𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 🎁", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 𝗗𝗘𝗟 𝗕𝗢𝗧', rowId: `${usedPrefix}memucomp`},
+      {title: "🌠 𝗛𝗕𝗢 🌠", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗛𝗕𝗢', rowId: `${usedPrefix}hbo`},
+      {title: "🏰 𝗗𝗜𝗦𝗡𝗘𝗬 🏰", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗗𝗜𝗦𝗡𝗘𝗬', rowId: `${usedPrefix}disney`},
+      {title: "🔊 𝗠𝗨𝗦𝗜𝗖𝗔 🔊", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗠𝗨𝗦𝗜𝗖𝗔', rowId: `${usedPrefix}musica`},
+      {title: "💥 𝗛𝗜𝗧𝗦 💥", description: '𝗛𝗜𝗧𝗦 𝗩𝗔𝗥𝗜𝗔𝗗𝗢𝗦', rowId: `${usedPrefix}hits`},
+      {title: "🎚️ 𝗔𝗖𝗢𝗥𝗡𝗧𝗩 🎚️", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗔𝗖𝗢𝗥𝗡 𝗧𝗩', rowId: `${usedPrefix}acorntv`},
+      {title: "⚡ 𝗖𝗥𝗨𝗡𝗖𝗛𝗜𝗥𝗥𝗢𝗟 ⚡", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗖𝗥𝗨𝗡𝗖𝗛𝗜𝗥𝗥𝗢𝗟', rowId: `${usedPrefix}crunchirrol`},
+      {title: "🔞 𝗦𝗧𝗔𝗥 🔞", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗦𝗧𝗔𝗥', rowId: `${usedPrefix}menunsfw`},
+      {title: "📲 𝗖𝗟𝗔𝗥𝗢 𝗩𝗜𝗗𝗘𝗢 📲", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗖𝗟𝗔𝗥𝗢 𝗩𝗜𝗗𝗘𝗢', rowId: `${usedPrefix}clarovideo`},
+      {title: "📖 𝗦𝗖𝗥𝗜𝗕𝗗 📖", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗦𝗖𝗥𝗜𝗕𝗗', rowId: `${usedPrefix}mscribd`},
+      {title: "🪙 𝗖𝗢𝗠𝗣𝗥𝗔𝗥 🪙", description: '𝗖𝗢𝗠𝗣𝗥𝗔 𝗣𝗥𝗢𝗗𝗨𝗖𝗧𝗢𝗦', rowId: `${usedPrefix}comprar`},
 {title: "⚒️ 𝗠𝗘𝗡𝗨 𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦 ⚒️", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦', rowId: `${usedPrefix}menuherramientas`},
       {title: "👑 𝙈𝙀𝙉𝙐 𝗖𝗥𝗘𝗔𝗗𝗢𝗥 👑", description: '𝗘𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗖𝗥𝗘𝗔𝗗𝗢𝗥 𝗦𝗢𝗟𝗢 𝗣𝗨𝗘𝗗𝗘 𝗦𝗘𝗥 𝗨𝗦𝗔𝗗𝗢𝗦 𝗣𝗢𝗥 𝗠𝗜 𝗖𝗥𝗘𝗔𝗗𝗢𝗥', rowId: `${usedPrefix}menucreador`},
 ]}, ]
