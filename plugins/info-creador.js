@@ -2,7 +2,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let text = `
-*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙾𝚆𝙽𝙴𝚁 𝙴𝚂 wa.me/573017901707*
+*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙾𝚆𝙽𝙴𝚁 𝙴𝚂 wa.me/34623442554*
 `.trim()   
 let buttonMessage= {
 'document': { url: `https://github.com/Gustavo-Peng` },
@@ -19,7 +19,7 @@ let buttonMessage= {
 'previewType': 'pdf',
 'title': 'ᴛʜᴇᴋɪɴɢ ʙᴏᴛ ᴍᴅ ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ',
 'body': wm,
-'sourceUrl': 'https://youtu.be/lAx8cXQNMU0' }},
+'sourceUrl': 'https://www.instagram.com/invites/contact/?i=tox4sy772izz&utm_content=ohvhscn' }},
 'caption': text,
 'footer': wm,
 'buttons':[
