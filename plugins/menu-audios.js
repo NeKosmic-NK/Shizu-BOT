@@ -1,7 +1,7 @@
 ﻿const { levelling } = '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = './media/menu/MenuAudios.jpg'
+let pp = './media/menu/Menuaudios.jpg'
 try {
 } catch (e) {
 } finally {
