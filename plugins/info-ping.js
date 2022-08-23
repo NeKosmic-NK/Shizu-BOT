@@ -8,7 +8,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
   setTimeout(resolve, 1000) }) * 1000}
   let uptime = clockString(_uptime)
   let estado =`
-  ╭─[ *𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭* ]
+  ╭─[ *𝗦𝗵𝗶𝘇𝘂 - 𝗕𝗼𝘁* ]
   │ *➤ 𝙷𝙾𝙻𝙰 ${name}*
   │
   │ *ミ 𝙴𝚂𝚃𝙰𝙳𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃 彡*
@@ -18,7 +18,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
   ╰───────────────
   `.trim()
   
-  conn.sendHydrated(m.chat, estado, wm, picture, 'https://instagram.com/gustavo_smpi', 'INSTAGRAM', null, null, [
+  conn.sendHydrated(m.chat, estado, wm, picture, 'https://instagram.com/nekosmic.nk', 'INSTAGRAM', null, null, [
   ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
   ], m)}
   
