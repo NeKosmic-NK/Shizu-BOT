@@ -1,19 +1,17 @@
-const { levelling } = '../lib/levelling.js'
+﻿const { levelling } = '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
 let handler = async (m, { conn, usedPrefix }) => {
-let pp = './Menu2.jpg'
+let pp = './media/menu/MenuAudios.jpg'
 try {
 } catch (e) {
 } finally {
 //let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
-let name = await conn.getName(m.sender)
+let username = await conn.getName(m.sender)
 let str = `
-*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
+*ミ💖 𝗛𝗢𝗟𝗔 _${username}_ 💖彡*
 𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗔𝗨𝗗𝗜𝗢𝗦
-
 *<𝗠𝗘𝗡𝗨 𝗔𝗨𝗗𝗜𝗢𝗦>*
 *- 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)*
-
 ° 🔊 _Quien es tu sempai botsito 7w7_
 ° 🔊 _A nadie le importa_
 ° 🔊 _Vivan los novios_
@@ -84,12 +82,15 @@ let str = `
 ° 🔊 _tumadre_ (video)
 ° 🔊 _Sos puto_
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
-['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
+conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
+['🗒️𝗠𝗘𝗡𝗨 𝗟𝗜𝗦𝗧𝗔🗒️', '.menu'],
+['🥵𝗖𝗥𝗘𝗔𝗗𝗢𝗥🥵', '.menu'],
+['📮𝗗𝗢𝗡𝗔𝗥📮', '.donar']
 ], m)
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
 handler.tags = ['main']
-handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
+handler.command = /^(menuaudio|menuaudios|memuaudios|memuaudio|audios)$/i
 handler.fail = null
+handler.register = true
 export default  handler
