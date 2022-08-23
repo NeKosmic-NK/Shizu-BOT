@@ -1,4 +1,4 @@
-import { igdl } from '../lib/scrape'
+import { igdl } from '../../lib/scrape.js'
 
 async function handler(m, { conn, args, usedPrefix, command }) {
 
