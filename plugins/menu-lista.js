@@ -47,7 +47,7 @@ rows: [
     {
 	title: "OWNER",
 	rows: [
-                {title: "UPDATE", description: '𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢 𝗗𝗘𝗟 𝗖𝗥𝗘𝗔𝗗𝗢𝗥', rowId: `${usedPrefix}update`},
+                {title: "UPDATE", description: 'ACTUALIZAR BOT', rowId: `${usedPrefix}update`},
 ]}, ]
 let name = await conn.getName(m.sender)
 const listMessage = {
