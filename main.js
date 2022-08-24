@@ -1,3 +1,4 @@
+
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 import './config.js';
 import { createRequire } from "module"; 
@@ -235,4 +236,3 @@ console.log(chalk.cyanBright(`\n▣────────[ 𝙰𝚄𝚃𝙾�
 _quickTest()
 .then()
 .catch(console.error)
-
