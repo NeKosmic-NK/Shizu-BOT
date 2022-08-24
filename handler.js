@@ -115,6 +115,8 @@ export async function handler(chatUpdate) {
                     user.horse = 0
                 if (!isNumber(user.horseexp))
                     user.horseexp = 0
+                if (!('antiToxic' in chat))
+                    chat.antiToxic = false
                 if (!isNumber(user.cat))
                     user.cat = 0
                 if (!isNumber(user.catexp))
