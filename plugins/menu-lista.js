@@ -54,15 +54,14 @@ rows: [
         title: "𝗥𝗘𝗗𝗘𝗦 𝗦𝗢𝗖𝗜𝗔𝗟𝗘𝗦",
 	rows: [    
 	      {title: "𝗥𝗘𝗗𝗘𝗦", description: '𝗦𝗜𝗚𝗨𝗘𝗠𝗘 𝗘𝗡 𝗧𝗢𝗗𝗔𝗦 𝗠𝗜𝗦 𝗥𝗘𝗗𝗘𝗦', rowId: `${usedPrefix}redes`},
-	       	]
-	    	       	]
+                ]
 	        },
     {
         title: "𝗦𝗢𝗣𝗢𝗥𝗧𝗘 𝗧𝗘𝗖𝗡𝗜𝗖𝗢",
 	rows: [    
 	      {title: "𝗚𝗥𝗨𝗣𝗢𝗦", description: '𝗚𝗥𝗨𝗣𝗢 𝗗𝗘 𝗦𝗢𝗣𝗢𝗥𝗧𝗘', rowId: `${usedPrefix}grupos`},
 	       	]
-    },
+                },
     {
 	title: "𝗢𝗪𝗡𝗘𝗥",
 	rows: [
