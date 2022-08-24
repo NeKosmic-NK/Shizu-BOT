@@ -32,7 +32,7 @@ rows: [
       {title: "🎁 𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 🎁", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 𝗗𝗘𝗟 𝗕𝗢𝗧', rowId: `${usedPrefix}memucomp`},
       {title: "🌠 𝗛𝗕𝗢 🌠", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗛𝗕𝗢', rowId: `${usedPrefix}hbo`},
       {title: "🏰 𝗗𝗜𝗦𝗡𝗘𝗬 🏰", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗗𝗜𝗦𝗡𝗘𝗬', rowId: `${usedPrefix}disney`},
-      {title: "🌏 𝗩𝗣𝗡 🌏", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗞𝗘𝗘𝗣𝗦𝗢𝗟𝗜𝗗 𝗦𝗘𝗜𝗦 𝗠𝗘𝗦𝗘𝗦', rowId: `${usedPrefix}musica`},
+      {title: "🌏 𝗩𝗣𝗡 🌏", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗞𝗘𝗘𝗣𝗦𝗢𝗟𝗜𝗗 𝗦𝗘𝗜𝗦 𝗠𝗘𝗦𝗘𝗦', rowId: `${usedPrefix}vpn`},
       {title: "🔊 𝗠𝗨𝗦𝗜𝗖𝗔 🔊", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗠𝗨𝗦𝗜𝗖𝗔', rowId: `${usedPrefix}musica`},
       {title: "💥 𝗛𝗜𝗧𝗦 💥", description: '𝗛𝗜𝗧𝗦 𝗩𝗔𝗥𝗜𝗔𝗗𝗢𝗦', rowId: `${usedPrefix}hits`},
       {title: "🎚️ 𝗔𝗖𝗢𝗥𝗡𝗧𝗩 🎚️", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗗𝗘 𝗔𝗖𝗢𝗥𝗡 𝗧𝗩', rowId: `${usedPrefix}acorntv`},
