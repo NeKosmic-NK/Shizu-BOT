@@ -220,6 +220,28 @@ default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage)
 throw false
 }
+case 'anticall':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.antiCall = isEnable
+break
+case 'antiprivado':
+isAll = true
+if (!isROwner) {
+global.dfail('rowner', m, conn)
+throw false
+}
+bot.antiPrivate = isEnable
+break
+case 'antitoxic':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
 chat.antiToxic = isEnable
 break
 default:
