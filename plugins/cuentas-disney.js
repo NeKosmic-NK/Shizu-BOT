@@ -1,5 +1,5 @@
 let handler  = async (m, { conn }) => {
-conn.reply(m.chat,`*┌────「 DISNEY+ 」─*\n*“${pickRandom(global.verdad)}”*\n*└────「 CUENTA GENERADA 」─*`, m)
+conn.reply(m.chat,`*┌────「 DISNEY+ 」─*\n*“${pickRandom(global.disney)}”*\n*└────「 CUENTA GENERADA 」─*`, m)
 }
 handler.help = ['disney']
 handler.tags = ['fun']
