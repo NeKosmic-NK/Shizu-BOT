@@ -82,12 +82,6 @@ let str = `
 ° 🔊 _tumadre_ (video)
 ° 🔊 _Sos puto_
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, null, null, null, null, [
-['🗒️𝗠𝗘𝗡𝗨 𝗟𝗜𝗦𝗧𝗔🗒️', '.menu'],
-['🥵𝗖𝗥𝗘𝗔𝗗𝗢𝗥🥵', '.menu'],
-['📮𝗗𝗢𝗡𝗔𝗥📮', '.donar']
-], m)
-}}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
 handler.tags = ['main']
 handler.command = /^(menuaudio|menuaudios|memuaudios|memuaudio|audios)$/i
