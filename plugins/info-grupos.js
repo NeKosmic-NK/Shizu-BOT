@@ -58,11 +58,11 @@ text: `*┏ ┅ ━━━━━━━━━━━━━ ┅ ━*
 *┃ AQUI TE DEJO MIS GRUPOS DE
 *┃ WHATSAPP*
 *┃ SOPPORTE TECNICO DEL BOT:*
-* https://chat.whatsapp.com/DV9nquN0eSn2y0OnqHEPHw*
+*https://chat.whatsapp.com/DV9nquN0eSn2y0OnqHEPHw*
 *┃ FAMILIA OTAKU:*
-* https://chat.whatsapp.com/JC4Q6NAn4iEIsWJKNrvV4N*
+*https://chat.whatsapp.com/JC4Q6NAn4iEIsWJKNrvV4N*
 *┃ GRUPO +18:*
-* https://chat.whatsapp.com/CapNGMtGwEZGRE8Wv8UpBO
+*https://chat.whatsapp.com/CapNGMtGwEZGRE8Wv8UpBO*
 *┗ ┅ ━━━━━━━━━━━━━ ┅ ━*
   `, footer: `${wm}`, pp,
 title: null,
