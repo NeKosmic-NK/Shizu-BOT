@@ -17,6 +17,6 @@ let donar =`
 `.trim()
 conn.sendHydrated(m.chat, donar, wm, null, 'https://www.instagram.com/invites/contact/?i=17oyfozpe6851&utm_content=paev3we', 'INSTAGRAM', null, null, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m)}
 handler.help = ['grupos']
-handler.tags = ['info']
+handler.tags = ['grupos']
 handler.command = /^grupos|gruposofc$/i
 export default handler
