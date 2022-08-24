@@ -18,5 +18,6 @@ global.vpn = [
   "Correo: vawobeb465@apparls.com Contraseña: @Shizu.hub",
   "Correo: netad33153@ecipk.com Contraseña: @Shizu.hub",
   "Correo: sobeje2583@ecipk.com Contraseña: @Shizu.hub",
+  "Correo: xepoli3895@apparls.com Contraseña: NeKosmic#321",
 
 ] 
