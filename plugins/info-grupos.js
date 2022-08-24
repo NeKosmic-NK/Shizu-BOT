@@ -63,6 +63,8 @@ text: `*┏ ┅ ━━━━━━━━━━━━━ ┅ ━*
 *https://chat.whatsapp.com/JC4Q6NAn4iEIsWJKNrvV4N*
 *┃ GRUPO +18:*
 *https://chat.whatsapp.com/CapNGMtGwEZGRE8Wv8UpBO*
+*┃ DARK SIDE:*
+*https://chat.whatsapp.com/Eec9Dd1uVd90Ac0U8mTgUh
 *┗ ┅ ━━━━━━━━━━━━━ ┅ ━*
   `, footer: `${wm}`, pp,
 title: null,
