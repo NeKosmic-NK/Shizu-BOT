@@ -55,7 +55,7 @@ text: `*┏ ┅ ━━━━━━━━━━━━━ ┅ ━*
 *┇     「 GRUPOS 」*
 *┣ ┅ ━━━━━━━━━━━━━ ┅ ━*
 *┃ HOLA ${name} 💙*
-*┃ AQUI TE DEJO MIS GRUPOS DE
+*┃ AQUI TE DEJO MIS GRUPOS DE*
 *┃ WHATSAPP*
 *┃ SOPPORTE TECNICO DEL BOT:*
 *https://chat.whatsapp.com/DV9nquN0eSn2y0OnqHEPHw*
