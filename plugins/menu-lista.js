@@ -45,6 +45,12 @@ rows: [
  	]
     },
     {
+        title: "DARK SIDE",
+	rows: [    
+	      {title: "CUENTAS", description: 'CUENTAS PREMIUM', rowId: `${usedPrefix}update`},
+	       	]
+    },
+    {
 	title: "OWNER",
 	rows: [
                 {title: "UPDATE", description: 'ACTUALIZAR BOT', rowId: `${usedPrefix}update`},
