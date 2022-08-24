@@ -45,15 +45,21 @@ rows: [
  	]
     },
     {
-        title: "DARK SIDE",
+        title: "𝗗𝗔𝗥𝗞 𝗦𝗜𝗗𝗘",
 	rows: [    
-	      {title: "CUENTAS", description: 'CUENTAS PREMIUM', rowId: `${usedPrefix}update`},
+	      {title: "𝗖𝗨𝗘𝗡𝗧𝗔𝗦", description: '𝗖𝗨𝗘𝗡𝗧𝗔𝗦 𝗣𝗥𝗘𝗠𝗜𝗨𝗠', rowId: `${usedPrefix}cuentas`},
+	       	]
+	        },
+    {
+        title: "𝗥𝗘𝗗𝗘𝗦 𝗦𝗢𝗖𝗜𝗔𝗟𝗘𝗦",
+	rows: [    
+	      {title: "𝗥𝗘𝗗𝗘𝗦", description: '𝗦𝗜𝗚𝗨𝗘𝗠𝗘 𝗘𝗡 𝗧𝗢𝗗𝗔𝗦 𝗠𝗜𝗦 𝗥𝗘𝗗𝗘𝗦', rowId: `${usedPrefix}redes`},
 	       	]
     },
     {
-	title: "OWNER",
+	title: "𝗢𝗪𝗡𝗘𝗥",
 	rows: [
-                {title: "UPDATE", description: 'ACTUALIZAR BOT', rowId: `${usedPrefix}update`},
+                {title: "𝗨𝗣𝗗𝗔𝗧𝗘", description: '𝗔𝗖𝗧𝗨𝗔𝗟𝗜𝗭𝗔𝗥 𝗕𝗢𝗧', rowId: `${usedPrefix}update`},
 ]}, ]
 let name = await conn.getName(m.sender)
 const listMessage = {
