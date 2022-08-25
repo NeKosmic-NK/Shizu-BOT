@@ -1,7 +1,7 @@
 {
-    "name": "El-Bot-Otaku",
-    "version": "1.1.2",
-    "description": "Subscribete al canal de Gustavo YT",
+    "name": "TheMystic-Bot-MD",
+    "version": "1.0.0",
+    "description": "Subscribete al canal de YT The Shadow Borkers",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -14,21 +14,21 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/Gustavo-Peng",
+    "homepage": "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
     "author": {
-        "name": "Gustavo-Peng"
+        "name": "BrunoSobrino"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Gustavo-Peng/El-Bot-Otaku.git"
+        "url": "git+https://github.com/BrunoSobrino/TheMystic-Bot-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/Gustavo-Peng/El-Bot-Otaku/issues"
+        "url": "https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues"
     },
-    "license": "MIT",
+    "license": "GPL-3.0-or-later",
     "dependencies": {
         "@adiwajshing/baileys": "github:BrunoSobrino/baileys",
-        "@bochilteam/scraper": "^2.0.0",
+        "@bochilteam/scraper": "^3.0.0",
         "acrcloud": "^1.4.0",
         "awesome-phonenumber": "^2.68.0",
         "axios": "^0.24.0",
@@ -40,13 +40,16 @@
         "express": "^4.17.3",
         "file-type": "^17.1.1",
         "fluent-ffmpeg": "^2.1.2",
+        "fs": "^0.0.1-security",
         "formdata-node": "^4.3.2",
+        "glob-fs": "^0.1.7",
         "human-readable": "^0.2.1",
         "hxz-api": "^1.0.1",
         "jsdom": "^19.0.0",
         "link-preview-js": "^2.1.13",
         "lodash": "^4.17.21",
         "lowdb": "^3.0.0",
+        "moment-timezone": "^0.5.34",
         "mongoose": "^6.3.3",
         "node-fetch": "^3.2.0",
         "node-gtts": "^2.0.2",
