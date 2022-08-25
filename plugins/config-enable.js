@@ -242,7 +242,7 @@ if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
 throw false
 }}
-chat.antiToxic = isEnable
+chat.antitoxic = isEnable
 break
 default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage)
