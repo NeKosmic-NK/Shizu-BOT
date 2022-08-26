@@ -82,7 +82,7 @@ global.APIKeys = { // APIKey Here
   'https://violetics.pw': 'beta'
 }
 
-global.imagen1 = fs.readFileSync('./thumbnail.jpg')
+global.imagen1 = fs.readFileSync('./Menu2.jpg')
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
 
